@@ -1,0 +1,6 @@
+---
+- name: Installation et configuration Nginx
+  hosts: all
+  become: yes
+  roles:
+    - nginx
